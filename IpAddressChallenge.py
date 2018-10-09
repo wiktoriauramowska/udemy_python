@@ -30,9 +30,10 @@ ipAddress = input("Please enter an IP address: ")
 counter = 1
 tempSegment = ''
 length_count = 0
+character = ''
 
 for character in ipAddress:
-    if character == '.' or character =='':
+    if character == '.':
         print("The length of segment {} is {} ".format(counter, length_count))
         tempSegment = ''
         length_count = 0
